@@ -1,0 +1,13 @@
+footer.footer-page {
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer.footer-page a {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,182 @@
+* {
+  font-family: "Noto Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", serif;
+}
+
+body {
+  --text-color: #111;
+  --text-title-color: #111;
+  --bkg-color: #dddddd;
+  --link-color: #111;
+  --link-active-color: #0074bf;
+  --text-second-color: #111;
+  --border-color: #ececec;
+  --article-text-color: #111;
+  --textarea-color: #fff;
+  --comment-primary-color: #6190e8;
+  --comment-border-color: #dfe2e5;
+  --popup-bg-color: #fff;
+  --post-link-color: #111;
+  --comment-btn-bg-color: #fff;
+  --comment-btn-border-color: #6190e8;
+  --comment-btn-color: #6190e8;
+  --comment-primary-btn-bg-color: #6190e8;
+  --comment-primary-btn-border-color: #6190e8;
+  --comment-primary-btn-color: #fff;
+  --post-info-color: #060606;
+  --switch-bg-color: #395b64;
+  --img-bg-color: #eeedeb;
+  --caption-bg-color: #f6f8fa;
+  --code-color: #eb5757;
+  --code-bg-color: rgba(135, 131, 120, 0.15);
+}
+
+body.dark-mode {
+  --text-color: #b4abbd;
+  --text-title-color: #b4abbd;
+  --bkg-color: #332F35;
+  --link-color: #b4abbd;
+  --link-active-color: #a9b1d6;
+  --text-second-color: #b4abbd;
+  --border-color: #4b4b4b;
+  --article-text-color: #b4abbd;
+  --textarea-bg-color: #b4abbd;
+  --post-link-color: #b4abbd;
+  --comment-primary-color: #1565c0;
+  --comment-border-color: #717374;
+  --popup-bg-color: #3a3636;
+  --comment-btn-bg-color: #4c4c4c;
+  --comment-btn-border-color: transparent;
+  --comment-btn-color: #a0a0a0;
+  --comment-primary-btn-bg-color: #4c4c4c;
+  --comment-primary-btn-border-color: transparent;
+  --comment-primary-btn-color: #d2d2d2;
+  --post-info-color: #b4abbd;
+  --switch-bg-color: #333333;
+  --img-bg-color: #616364;
+  --caption-bg-color: #1a1b26;
+  --code-color: #b8a4a4;
+  --code-bg-color: #303536;
+}
+body.dark-mode img,
+body.dark-mode code.hljs {
+  filter: brightness(0.9);
+  background-color: #303536;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --text-color: #b4abbd;
+    --text-title-color: #b4abbd;
+    --bkg-color: #332F35;
+    --link-color: #b4abbd;
+    --link-active-color: #a9b1d6;
+    --text-second-color: #b4abbd;
+    --border-color: #4b4b4b;
+    --article-text-color: #b4abbd;
+    --textarea-bg-color: #b4abbd;
+    --post-link-color: #b4abbd;
+    --comment-primary-color: #1565c0;
+    --comment-border-color: #717374;
+    --popup-bg-color: #3a3636;
+    --comment-btn-bg-color: #4c4c4c;
+    --comment-btn-border-color: transparent;
+    --comment-btn-color: #a0a0a0;
+    --comment-primary-btn-bg-color: #4c4c4c;
+    --comment-primary-btn-border-color: transparent;
+    --comment-primary-btn-color: #d2d2d2;
+    --post-info-color: #b4abbd;
+    --switch-bg-color: #333333;
+    --img-bg-color: #616364;
+    --caption-bg-color: #1a1b26;
+    --code-color: #b8a4a4;
+    --code-bg-color: #303536;
+  }
+  body img,
+  body code.hljs {
+    filter: brightness(0.9);
+    background-color: #303536;
+  }
+  body.light-mode {
+    --text-color: #111;
+    --text-title-color: #111;
+    --bkg-color: #dddddd;
+    --link-color: #111;
+    --link-active-color: #0074bf;
+    --text-second-color: #111;
+    --border-color: #ececec;
+    --article-text-color: #111;
+    --textarea-bg-color: #fff;
+    --post-link-color: #111;
+    --comment-primary-color: #6190e8;
+    --comment-border-color: #dfe2e5;
+    --popup-bg-color: #fff;
+    --comment-btn-bg-color: #fff;
+    --comment-btn-border-color: #6190e8;
+    --comment-btn-color: #fff;
+    --comment-primary-btn-bg-color: #6190e8;
+    --comment-primary-btn-border-color: #6190e8;
+    --comment-primary-btn-color: #fff;
+    --post-info-color: #060606;
+    --switch-bg-color: #395b64;
+    --img-bg-color: #eeedeb;
+    --caption-bg-color: #f6f8fa;
+    --code-color: #eb5757;
+    --code-bg-color: rgba(135, 131, 120, 0.15);
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.main-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--bkg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+a:hover, a:active {
+  color: var(--link-active-color);
+}
+
+p {
+  margin: 27px 0;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=normal.css.map */

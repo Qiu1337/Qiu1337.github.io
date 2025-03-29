@@ -1,0 +1,213 @@
+.post-page {
+  position: relative;
+  padding-bottom: 60px;
+}
+.post-page .title-bar {
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.post-page h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  color: var(--text-title-color);
+}
+.post-page .feature-img img {
+  max-width: 100%;
+}
+.post-page p {
+  color: var(--article-text-color);
+  font-size: 18px;
+}
+.post-page .img-caption {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+}
+.post-page .post-info {
+  color: var(--post-info-color);
+  display: flex;
+  align-items: center;
+}
+.post-page .post-info .tags {
+  display: inline-block;
+  margin-left: 6px;
+}
+.post-page .post-info .tags a {
+  margin: 0 3px;
+  color: var(--post-info-color);
+}
+.post-page .post-info .tags a:hover, .post-page .post-info .tags a:active {
+  color: var(--link-active-color);
+}
+.post-page img {
+  max-width: 90%;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 6px;
+}
+.post-page img.img-loading {
+  height: 200px;
+  width: 90%;
+  background-color: var(--img-bg-color);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.post-page .video-container {
+  height: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+.post-page .video-container iframe,
+.post-page .video-container object,
+.post-page .video-container embed {
+  height: 100%;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.post-page .post-pager {
+  border-top: 1px dashed #ececec;
+  border-color: var(--border-color);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-page .post-pager div {
+  flex-basis: 48%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.post-page .post-pager div.next {
+  text-align: right;
+}
+.post-page .post-pager div.pre {
+  text-align: left;
+}
+.post-page .post-pager a {
+  color: var(--post-link-color);
+}
+.post-page .post-pager a:hover, .post-page .post-pager a:active {
+  color: var(--link-active-color);
+}
+.post-page a {
+  color: var(--post-link-color);
+}
+.post-page a:hover, .post-page a:active {
+  color: var(--link-active-color);
+}
+.post-page .copyright-wrapper {
+  border-top: 1px dashed #ececec;
+  border-color: var(--border-color);
+  padding: 10px 0;
+}
+.post-page .copyright-wrapper p {
+  margin: 7px 0;
+  font-size: 14px;
+}
+.post-page .copyright-wrapper a {
+  color: var(--post-link-color);
+  border-bottom: 1px dashed #ececec;
+  border-color: var(--border-color);
+}
+.post-page .copyright-wrapper a:hover, .post-page .copyright-wrapper a:active {
+  color: var(--link-active-color);
+}
+.post-page ul,
+.post-page ol {
+  padding-left: 30px;
+}
+.post-page ul li,
+.post-page ol li {
+  list-style: initial;
+  line-height: 34px;
+}
+.post-page ol li {
+  list-style: auto;
+}
+.post-page dt,
+.post-page dd {
+  line-height: 34px;
+}
+.post-page dd {
+  padding-left: 30px;
+}
+.post-page table {
+  border-collapse: collapse;
+}
+.post-page table th,
+.post-page table td {
+  border: 1px solid #ddd;
+  border-color: var(--border-color);
+}
+.post-page table th {
+  height: 32px;
+  vertical-align: middle;
+  padding: 6px;
+}
+.post-page table td {
+  text-align: center;
+  vertical-align: center;
+  padding: 6px;
+}
+.post-page .highlight table {
+  border: 0;
+  margin: 0;
+  width: auto;
+}
+.post-page .highlight td {
+  text-align: left;
+  border: 0;
+  padding: 0;
+}
+.post-page blockquote {
+  border-left: 4px solid #ddd;
+  border-color: var(--border-color);
+  margin: 0;
+  padding: 0 15px;
+}
+.post-page .caption {
+  background-color: var(--caption-bg-color);
+  line-height: 30px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.post-page .caption a {
+  color: var(--post-link-color);
+}
+.post-page .caption a:hover, .post-page .caption a:active {
+  color: var(--link-active-color);
+}
+.post-page mark {
+  background: none;
+}
+.post-page strong,
+.post-page cite {
+  color: var(--article-text-color);
+}
+.post-page cite {
+  margin-left: 10px;
+}
+.post-page code {
+  background-color: var(--code-bg-color);
+  padding: 3px;
+  line-height: 28px;
+}
+.post-page ::-webkit-scrollbar {
+  display: none;
+}
+.post-page iframe {
+  width: 100%;
+}
+
+/*# sourceMappingURL=post.css.map */
